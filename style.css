@@ -9,6 +9,10 @@
     padding-right: 10vh;
 }
 
+.light-green-btn{
+    background-color: #198754; /* Light green */
+}
+
 .Fashion{
     padding: 50px 0;
 }
@@ -22,3 +26,14 @@
     top: 40px;
 }
 
+.container-contact{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 700px; /* Adjust the max-width as needed */
+}
