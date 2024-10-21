@@ -13,3 +13,9 @@
 .Latest{
     padding: 50px 0;
 }
+
+.custom-container {
+    max-width: 1100px; 
+    top: 40px;
+}
+
