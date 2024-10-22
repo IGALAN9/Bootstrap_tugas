@@ -4,45 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subscribe</title>
+
+    <!-- Css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="style.css" rel="stylesheet"/>
     <link href="style2.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
-    <!-- navbar section -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
+     <!-- navbar section -->
+     <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">Lifestyle <span class="text-success-emphasis">Vibes</span></a>
         <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+        <div class="collapse navbar-collapse bg-dark" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link btn light-green-btn" href="subcribe.html">Subscribe</a>
+              <a class="nav-link btn light-green-btn" href="subcribe.html">Subscribe</a>
             </li>
-            </ul>
+          </ul>
         </div>
-        </div>
+      </div>
     </nav>
 
      <main class="container my-5">
@@ -94,6 +102,56 @@
             </button>
           </div>
 
+<!-- reviews -->
+<section id="reviews" class="reviews col-md-8 offset-md-2">
+  <h3>Reviews</h3>
+  <p>Here are reviews from our satisfied customers.</p>
+  
+  <div class="swiper review-slider">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Heru</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Member for 1 Year</h6>
+            <p class="card-text">Situs ini memberikan kombinasi sempurna antara panduan gym yang mudah diikuti, tips yoga untuk relaksasi, dan gaya fashion terkini! Sangat membantu untuk menjaga tubuh tetap bugar dan tampil stylish..</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Kenny</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Member for 6 Months</h6>
+            <p class="card-text">Saya suka bagaimana website ini menyajikan info gym dan yoga yang praktis, ditambah dengan inspirasi fashion yang cocok untuk gaya hidup aktif. Sumber yang sangat bermanfaat!</p> 
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Ethan</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Member for 2 Months</h6>
+            <p class="card-text">Dengan artikel yang beragam tentang latihan gym, yoga, dan tren fashion, website ini membuat saya merasa termotivasi untuk menjalani gaya hidup sehat dan tampil percaya diri setiap hari.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Kayla</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Member for 1 Months</h6>
+            <p class="card-text">Konten website ini sangat informatif! Dari workout plan di gym hingga tips yoga dan ide fashion sporty, semuanya membantu saya menjalani hidup sehat dengan gaya.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 </body>
 </html>
