@@ -7,10 +7,11 @@ $(document).ready(function() {
             0: {
                 slidesPerView: 1,
             },
-            640: {
+            1000: {
                 slidesPerView: 2,
+                spaceBetween: 40,
             },
-            1200: {
+            1370: {
                 slidesPerView: 3,
             },
         },
