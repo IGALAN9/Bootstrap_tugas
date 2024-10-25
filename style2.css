@@ -1,7 +1,8 @@
 .navbar {
     height: 50px;
 }
-.navbar-brand{
+
+.navbar-brand {
     padding-left: 15vh;
 }
 
@@ -9,39 +10,39 @@
     padding-right: 10vh;
 }
 
-.light-green-btn{
-    background-color: #198754; 
+.light-green-btn {
+    background-color: #198754;
 }
 
-.reviews{
+.reviews {
     padding: 50px 0;
 }
 
-.carousel-item{
+.carousel-item {
     height: 100vh;
     min-height: 300px;
 }
 
-.carousel-caption{
+.carousel-caption {
     bottom: 300px;
     z-index: 2;
 }
 
-.carousel-caption h5{
+.carousel-caption h5 {
     font-size: 45px;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 25px;
 }
 
-.carousel-caption p{
+.carousel-caption p {
     width: 60%;
     margin: auto;
     font-size: 18px;
     line-height: 1.9;
 }
 
-.carousel-inner::before{
+.carousel-inner::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -53,10 +54,11 @@
 }
 
 @media only screen and (max-width: 768px) and (max-width: 991px) {
-    .carousel-caption{
+    .carousel-caption {
         bottom: 370px;
     }
-    .carousel-caption p{
+
+    .carousel-caption p {
         width: 100%;
     }
 }
@@ -65,13 +67,16 @@
     .carousel-caption {
         bottom: 300px;
     }
-    .carousel-caption h5{
+
+    .carousel-caption h5 {
         font-size: 17px;
     }
-    .carousel-caption a{
+
+    .carousel-caption a {
         padding: 10px 15px;
     }
-    .carousel-caption p{
+
+    .carousel-caption p {
         width: 100%;
         line-height: 1.6;
         font-size: 12px;
